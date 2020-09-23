@@ -1,0 +1,318 @@
+<html>
+    <head>
+        <title>Withdrawal - Remote Ripples</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+        <link rel='stylesheet' href='https://unpkg.com/aos@2.3.0/dist/aos.css'>
+        <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap" rel="stylesheet">
+        <style>
+            
+            body,html{
+                background: rgb(255,255,255);
+                background: linear-gradient(165deg, rgba(255,255,255,1) 0%, rgba(101,236,255,1) 10%, rgba(158,243,255,1) 17%, rgba(99,196,255,1) 29%, rgba(47,254,255,1) 44%, rgba(102,185,255,1) 61%, rgba(206,253,255,1) 73%, rgba(255,255,255,1) 82%, rgba(113,240,255,1) 92%, rgba(0,129,255,1) 100%);
+                background-size: cover;
+            }
+            
+            .logo {
+              width: 80px;
+                height: 80px;
+                top:7%;
+                left:5%;
+                padding-top: 5px;
+                position: fixed;
+            }
+
+            .backbutton {
+                width: 52px;
+                height: 52px;
+                top:7%;
+                right:5%;
+                padding-top: 5px;
+                position: fixed;
+            }
+            
+            .image {
+                width: 45%;
+                position: relative;
+                padding-top: 15%;
+                padding-bottom: 15%;
+            }
+            
+            .circle1 {
+                height: 200px;
+                width: 200px;
+                border-radius: 50%;
+                border-style: solid;
+                border-color: blue;
+                display: inline-block;
+                position: fixed;
+                animation: openCircle1 1.7s linear infinite;
+                transform-origin: bottom;
+            }
+            .circle2 {
+                height: 200px;
+                width: 200px;
+                border-radius: 50%;
+                border-style: solid;
+                border-color: blue;
+                display: inline-block;
+                position: fixed;
+                animation: openCircle2 1.7s linear infinite;
+                transform-origin: bottom;
+            }
+            .circle3 {
+                height: 200px;
+                width: 200px;
+                border-radius: 50%;
+                border-style: solid;
+                border-color: blue;
+                display: inline-block;
+                position: fixed;
+                animation: openCircle3 1.7s linear infinite;
+                transform-origin: bottom;
+            }
+            .circle4 {
+                height: 200px;
+                width: 200px;
+                border-radius: 50%;
+                border-style: solid;
+                border-color: blue;
+                display: inline-block;
+                position: fixed;
+                animation: openCircle4 1.7s linear infinite;
+                transform-origin: bottom;
+            }
+            .circle5 {
+                height: 200px;
+                width: 200px;
+                border-radius: 50%;
+                border-style: solid;
+                border-color: blue;
+                display: inline-block;
+                position: fixed;
+                animation: openCircle5 1.7s linear infinite;
+                transform-origin: bottom;
+            }
+            
+            
+            @keyframes openCircle1{
+                
+                0%{
+                    border-color: transparent;
+                    height:0;
+                    width:0;
+                }
+                1%{
+                    height:0;
+                    width:0;
+                    border-color: blue;
+                }
+                
+                50%{
+                    height: 300px;
+                    width: 300px;
+                    border-color: transparent;
+                }
+                
+                100%{
+                    height: 300px;
+                    width: 300px;
+                    border-color: transparent;
+                }
+            }
+            @keyframes openCircle2{
+                
+                0%{
+                    border-color: transparent;
+                    height:0;
+                    width:0;
+                }
+                9%{
+                    border-color: transparent;
+                    height:0;
+                    width:0;
+                }
+                10%{
+                    height:0;
+                    width:0;
+                    border-color: blue;
+                }
+                
+                35%{
+                    height: 300px;
+                    width: 300px;
+                    border-color: transparent;
+                }
+                
+                100%{
+                    height: 300px;
+                    width: 300px;
+                    border-color: transparent;
+                }
+            }
+            @keyframes openCircle3{
+                
+                0%{
+                    border-color: transparent;
+                    height:0;
+                    width:0;
+                }
+                19%{
+                    border-color: transparent;
+                    height:0;
+                    width:0;
+                }
+                20%{
+                    height:0;
+                    width:0;
+                    border-color: blue;
+                }
+                
+                45%{
+                    height: 300px;
+                    width: 300px;
+                    border-color: transparent;
+                }
+                
+                100%{
+                    height: 300px;
+                    width: 300px;
+                    border-color: transparent;
+                }
+            }
+            @keyframes openCircle4{
+                
+                0%{
+                    border-color: transparent;
+                    height:0;
+                    width:0;
+                }
+                29%{
+                    border-color: transparent;
+                    height:0;
+                    width:0;
+                }
+                30%{
+                    height:0;
+                    width:0;
+                    border-color: blue;
+                }
+                
+                55%{
+                    height: 300px;
+                    width: 300px;
+                    border-color: transparent;
+                }
+                
+                100%{
+                    height: 300px;
+                    width: 300px;
+                    border-color: transparent;
+                }
+            }
+            @keyframes openCircle5{
+                
+                0%{
+                    border-color: transparent;
+                    height:0;
+                    width:0;
+                }
+                39%{
+                    border-color: transparent;
+                    height:0;
+                    width:0;
+                }
+                40%{
+                    height:0;
+                    width:0;
+                    border-color: blue;
+                }
+                
+                55%{
+                    height: 300px;
+                    width: 300px;
+                    border-color: transparent;
+                }
+                
+                100%{
+                    height: 300px;
+                    width: 300px;
+                    border-color: transparent;
+                }
+            }
+            
+            :root * {
+              /* Pause the animation */
+              animation-play-state: paused;
+              /* Bind the animation to scroll */
+              animation-delay: calc(var(--scroll) * -1s);
+              /* These last 2 properites clean up overshoot weirdness */
+              animation-iteration-count: 1;
+              animation-fill-mode: both;
+            }
+
+        </style>
+    </head>
+    <body>
+        <div class="logo" data-aos="fade-right">
+            <a href="https://aos.arebyte.com">
+                <img src="imgs/aoslogo.gif" alt= "aoslogo" style="width:80px;height:80px;">
+            </a>
+        </div>
+
+        <div class="backbutton" data-aos="fade-right">
+            <a href="https://remotelatency.com">
+                <img src="imgs/back.png" alt="backbutton"  style="width:80px;height:80px;">
+            </a>
+        </div>
+        
+        <span class="circle1" style="left:85%; top:15%;"></span>
+        <span class="circle2" style="left:55%; top:5%;"></span>
+        <span class="circle3" style="left:25%; top:35%;"></span>
+        <span class="circle4" style="left:35%; top:70%;"></span>
+        <span class="circle5" style="left:45%; top:25%;"></span>
+        <span class="circle1" style="left:20%; top:15%;"></span>
+        <span class="circle2" style="left:25%; top:60%;"></span>
+        <span class="circle3" style="left:80%; top:40%;"></span>
+        <span class="circle4" style="left:55%; top:50%;"></span>
+        
+        <div style="width: 65%; padding: 5%; padding-top: 15%; margin: auto" data-aos="fade-up">
+            <h1 style="font-family: 'Quicksand', sans-serif; font-size: 50pt; font-weight: 700;">Withdrawal - Remote Ripples</h1>
+            <h2 style="font-family: 'Quicksand', sans-serif; font-size: 30pt; font-weight: 700;">Robert Hall - 2020</h2>
+        </div>
+        <img class="image" style="padding-left: 5%" data-aos="fade-up" src="1.jpg">
+        <img class="image" style="padding-left: 25%" data-aos="fade-up" src="2.png">
+        <img class="image" style="padding-left: 15%" data-aos="fade-up" src="3.jpg">
+        <img class="image" style="padding-left: 45%" data-aos="fade-up" src="4.jpg">
+        <img class="image" style="padding-left: 25%" data-aos="fade-up" src="5.jpg">
+        <div style="width: 70%; padding:1%; text-align: center; background: white; background-clip: padding-box; margin: auto;" data-aos="fade-up">
+            <p style="font-family: 'Quicksand', sans-serif; font-size: 20pt; font-weight: 400;">'This project is a manifestation of the duality between the physical and non-physical dimensions of networked technologies. The misnomer of the ‘cloud’ being some entity that exists not in the physical world when in reality the infrastructure is tangible.'</p>
+            
+            <p style="font-family: 'Quicksand', sans-serif; font-size: 15pt; font-weight: 400;">The work takes the form of a live stream which can be influenced by clicking on the screen, an action that would normally have no influence on the stream. The stream is of the reflections from a pool of water. The actions of the user cause small magnetic actuators to be triggered to splash the water. The reflections are captured rather than the water directly as this amplifies the effect the actuators have. When the user clicks, an animation begins which fills the time caused by the latency of the live stream. The animation is a reverse ripple, A circle surrounds the clicked position and shrinks as it moves to the point that will eventually be the start of the real ripple. This directly connects the click with the eventual ripple. These circles are synced between browsers so if someone else is also logged on their circles will appear on your screen and visa versa. In this way multiple people can experience the artwork together while being distant from one another.</p>
+        </div>
+        
+        
+        <iframe style="padding-left: 15%; padding-bottom: 15%; padding-top: 15%" data-aos="fade-up" width="560" height="315" src="https://www.youtube-nocookie.com/embed/JxdpJnkQez0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        
+        <script src='https://unpkg.com/aos@2.3.0/dist/aos.js'></script>
+        <script>
+            AOS.init({
+              duration: 1200,
+            })
+
+            window.addEventListener(
+              "scroll",
+              () => {
+                document.body.style.setProperty(
+                  "--scroll",
+                  window.pageYOffset / (document.body.offsetHeight - window.innerHeight)
+                );
+              },
+              false
+            );
+            
+        </script>
+        
+    </body>
+</html>
+
+
